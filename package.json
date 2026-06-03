@@ -2,11 +2,31 @@
   "name": "edumauer-cosmic-flow",
   "version": "1.0.0",
   "description": "Cosmic Flow — Palavra Ritual • Dramaturgia do Absurdo",
+  "author": {
+    "name": "Eduardo Mauer",
+    "email": "presidenteMILK@icloud.com",
+    "url": "https://github.com/eduardomauer"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduardomauer/edumauer.git"
+  },
+  "homepage": "https://github.com/eduardomauer/edumauer#readme",
+  "keywords": [
+    "cosmic-flow",
+    "dramaturgia",
+    "absurdo",
+    "palavra-ritual",
+    "astro",
+    "react"
+  ],
   "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "install": "npm install"
   },
   "dependencies": {
     "astro": "^4.0.0",
@@ -18,5 +38,9 @@
   "devDependencies": {
     "@astrojs/react": "^3.0.0",
     "@astrojs/tailwind": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
